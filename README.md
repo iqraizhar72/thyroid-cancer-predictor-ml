@@ -1,6 +1,7 @@
 # 🧠 Thyroid Cancer Detection – Machine Learning Project
 
-This is a Machine Learning project built as part of my Data Science journey. The model predicts whether a thyroid condition is **Benign** or **Malignant** based on various medical and lifestyle inputs.
+This Machine Learning project focuses on predicting whether a thyroid condition is Benign or Malignant using various medical and lifestyle inputs. The model is trained on relevant clinical data and leverages classification techniques to assist in early diagnosis and risk assessment. This project demonstrates the application of machine learning in the healthcare domain, aiming to support medical professionals with data-driven insights.
+
 
 This project demonstrates the complete ML pipeline:
 
