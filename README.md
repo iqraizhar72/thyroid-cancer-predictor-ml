@@ -79,24 +79,24 @@ Replace these image paths with your actual screenshots (in a `/screenshots` fold
 
 ```bash
 git clone https://github.com/your-username/thyroid-cancer-detection.git
-cd thyroid-cancer-detection
-2. Install Dependencies
-bash
+cd thyroid-cancer-detection```
+### 2. Install Dependencies
+```bash
 Copy
 Edit
-pip install -r requirements.txt
-3. Run the Flask App
-bash
+pip install -r requirements.txt```
+### 3. Run the Flask App
+```bash
 Copy
 Edit
-python thyroid_model.py
-4. Open in Your Browser
-cpp
+python thyroid_model.py```
+### 4. Open in Your Browser
+```cpp
 Copy
 Edit
-http://127.0.0.1:5000/
-🛠 Tools & Technologies Used
-📚 Languages & Libraries
+http://127.0.0.1:5000/```
+## 🛠 Tools & Technologies Used
+### 📚 Languages & Libraries
 Python
 
 Pandas, NumPy
@@ -107,23 +107,23 @@ Flask
 
 Pickle
 
-💻 Development & Visualization
+### 💻 Development & Visualization
 Jupyter Notebook
 
 HTML/CSS (Frontend)
 
 Google Fonts
 
-🔍 Model
+### 🔍 Model
 Logistic Regression (with preprocessing and encoding)
 
-📦 Deployment Ready
+### 📦 Deployment Ready
 Flask Web App
 
 requirements.txt for environment setup
 
-👤 Author
+##👤 Author
 **IqraIzhar**
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-- **GitHub:** [github.com/your-username](https://github.com/your-username)
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
+- **LinkedIn:** [linkedin.com/in/iqra-izhar-08b8b8330](https://www.linkedin.com/in/iqra-izhar-08b8b8330)  
+- **GitHub:** [github.com/iqraizhar72](https://github.com/iqraizhar72)
+- **Email:** [iqraizhar72@gmail.com](mailto:iqraizhar72@gmail.com)
