@@ -128,7 +128,7 @@ _Flask Web App
 
 _requirements.txt for environment setup
 
-##👤 Author
+## 👤 Author
 
 **IqraIzhar**
 - **LinkedIn:** [linkedin.com/in/iqra-izhar-08b8b8330](https://www.linkedin.com/in/iqra-izhar-08b8b8330)  
