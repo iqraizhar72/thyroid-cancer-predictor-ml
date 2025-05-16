@@ -63,15 +63,17 @@ Built using Flask, the app provides a clean UI where users can input patient dat
 
 ## 🖼 Screenshots
 
-Replace these image paths with your actual screenshots (in a `/screenshots` folder):
+### 🧾 Input Form Page
+This is where users enter medical and personal details for prediction.
 
-### 🔘 Input Form
 ![Input Form](screenshots/form.png)
 
-### 📊 Prediction Result
-![Prediction Result](screenshots/result.png)
-
 ---
+
+### 🔍 Prediction Result Page
+Displays whether the condition is predicted as **Benign** or **Malignant**, with an explanation and medical advice.
+
+![Prediction Result](screenshots/result.png)
 
 ## 🏃‍♂️ How to Run This Project
 
