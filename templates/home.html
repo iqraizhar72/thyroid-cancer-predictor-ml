@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thyroid Cancer Detection Model</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            background-color: #ffffff;
+            margin: 50px auto;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #006A71;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h4 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        .button-group {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        input[type="submit"],
+        input[type="button"] {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+        input[type="submit"] {
+            background-color: #006A71;
+            color: #fff;
+        }
+        input[type="submit"]:hover {
+            background-color: #004f54;
+        }
+        input[type="button"] {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+        input[type="button"]:hover {
+            background-color: #cacaca;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thyroid Cancer Detection</h1>
+        <h4>To know your thyroid cancer status, please fill in the information below:</h4>
+        <form action="/getprediction" method="POST" id="myForm">
+            <label for="age">Enter the age of patient:</label>
+            <input type="text" name="age" required>
+
+            <label for="tsh">Enter Thyroid-Stimulating Hormone (TSH) level:</label>
+            <input type="text" name="tsh" required>
+
+            <label for="t3">Enter Triiodothyronine (T3) level:</label>
+            <input type="text" name="t3" required>
+
+            <label for="t4">Enter Thyroxine (T4) level:</label>
+            <input type="text" name="t4" required>
+
+            <label for="nodulesize">Size of thyroid nodules (in cm):</label>
+            <input type="text" name="nodulesize" required>
+
+            <label for="gender">Gender:</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="fhistory">Family history of thyroid cancer:</label>
+            <select name="fhistory">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="rexposer">Exposure to radiation in the past:</label>
+            <select name="rexposer">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="iodind">Iodine deficiency:</label>
+            <select name="iodind">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="smoking">Smoking:</label>
+            <select name="smoking">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="obesity">Obesity:</label>
+            <select name="obesity">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="diabetes">Diabetes:</label>
+            <select name="diabetes">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="rlevel">Thyroid risk level:</label>
+            <select name="rlevel">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+
+            <div class="button-group">
+                <input type="submit" name="submit" value="Submit">
+                <input type="button" value="Clear" onclick="document.getElementById('myForm').reset();">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
