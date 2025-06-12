@@ -138,3 +138,9 @@ _requirements.txt for environment setup
 - **LinkedIn:** [linkedin.com/in/iqra-izhar-08b8b8330](https://www.linkedin.com/in/iqra-izhar-08b8b8330)  
 - **GitHub:** [github.com/iqraizhar72](https://github.com/iqraizhar72)
 - **Email:** [iqraizhar72@gmail.com](mailto:iqraizhar72@gmail.com)
+
+## 🌟 Feedback & Support
+
+Feel free to share suggestions or compliments — your feedback is appreciated!  
+If you found this project useful, please consider giving it a ⭐️.
+
